@@ -40,7 +40,7 @@ function draw() {
   text((diameter/112.5).toFixed(1), 85, 100);
 
   textSize(20);
-  text('CirCUMference:', 10, 130);
+  text('Circumference:', 10, 130);
   text((2*Math.PI*(diameter/112.5)).toFixed(1), 160, 130);
 
   textSize(20);
